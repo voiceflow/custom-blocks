@@ -1,0 +1,25 @@
+{
+  "user":"{User}",
+  "channel": "{Channel}",
+  "text": "Link",
+  "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "{Text}"
+        },
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "{ButtonLabel}",
+            "emoji": true
+          },
+          "value": "click_me_123",
+          "url": "{URL}",
+          "action_id": "button-action"
+        }
+      }
+  ]
+}

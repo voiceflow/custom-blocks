@@ -1,0 +1,43 @@
+{
+	"user":"{User}",
+  "channel": "{Channel}",
+  "text": "Date / Time",
+  "blocks": [
+		{
+			"type": "input",
+			"element": {
+				"type": "datepicker",
+				"initial_date": "{InitialDate}",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "{DatePlaceholder}",
+					"emoji": true
+				},
+				"action_id": "datepicker-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "{DateLabel}",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "timepicker",
+				"initial_time": "{InitialTime}",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "{TimePlaceholder}",
+					"emoji": true
+				},
+				"action_id": "timepicker-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "{TimeLabel}",
+				"emoji": true
+			}
+		}
+	]
+}
