@@ -2,11 +2,11 @@
 
 ## What are Custom Blocks?
 
-Custom Blocks extend the Voiceflow step kit by allowing builders to create their own steps to use on the canvas. 
+Custom Blocks extend the Voiceflow step kit by allowing builders to create their own steps to use on the canvas.
 
 ![Custom Block Create](https://user-images.githubusercontent.com/68556615/191762803-eb5038c8-fd73-42d9-85ce-7a3e4f321247.png)
 
-Some examples include [Whatsapp](/whatsapp/) and [Microsoft Teams](/microsoft/).
+Some examples include [Whatsapp](/whatsapp/) and [Slack](/slack/).
 
 ## Contributing to the community
 
